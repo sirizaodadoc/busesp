@@ -1,0 +1,115 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Usamos a fonte 'Inter' para um visual mais moderno */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <!-- Container Principal -->
+    <div class="bg-white p-8 sm:p-12 rounded-xl shadow-lg text-center max-w-md w-full mx-4">
+        
+        <!-- Imagem de Perfil ou Logo (Opcional) -->
+        <img src="data:image/png;base64,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" alt="Logo do Site" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-white shadow-md">
+
+        <!-- Título e Descrição -->
+        <h1 class="text-3xl font-bold text-gray-800 mb-2">Links para Validadores e HS </h1>
+        <p class="text-gray-600 mb-8">Clique em um dos botões abaixo para ser direcionado ao validador ou lista desejada</p>
+
+        <!-- Lista de Botões -->
+        <div class="space-y-4">
+
+            <!-- Botão 1: Leva para o Google -->
+            <a href="https://portal.cfm.org.br/busca-medicos" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Busca CRM
+            </a>
+
+            
+            <!-- Botão 1: Leva para o Google -->
+            <a href="http://siscnrm.mec.gov.br/certificados" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Validar RQE
+            </a>
+
+            
+            <!-- Botão 1: Leva para o Google -->
+            <a href="https://cadastro.cfp.org.br/" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Buscar Psicólogos
+            </a>
+
+            
+            <!-- Botão 1: Leva para o Google -->
+            <a href="https://cnn.cfn.org.br/application/index/consulta-nacional" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Buscar Nutricionistas
+            </a>
+
+            
+            <!-- Botão 1: Leva para o Google -->
+            <a href="https://website.cfo.org.br/busca-profissionais/" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Busca CRO
+            </a>
+
+            
+            <!-- Botão 1: Leva para o Google -->
+            <a href="https://www.incorpnet.com.br/appincorpnet2_crefitomt/incorpnet.dll/controller?Pagina=pub_MvcLocalizarCadastroResultado.htm" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Todos os CREFITOS
+            </a>
+
+            <!-- Botão 1: Leva para o Google -->
+            <a href="https://fonoaudiologia.org.br/buscar-profissionais-por-regiao/" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Fonoaudiologia
+
+            
+
+
+
+
+            
+            </a> <!-- Botão 1: Leva para o Google -->
+            <a href="https://app.hubspot.com/contacts/442271/objects/0-1/views/4271719/list" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Lista Premium - HS
+
+            
+
+
+
+
+            
+            </a></a> <!-- Botão 1: Leva para o Google -->
+            <a href="https://app.hubspot.com/contacts/442271/objects/0-1/views/34878559/list" target="_blank" 
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-transform transform hover:scale-105">
+                Lista Onboarding - HS
+
+            
+
+
+
+
+            
+            </a>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>
